@@ -1,0 +1,226 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous" </script></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/" class="logo">
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I,m <span>Ghulam</span><br>Dastagir From Pakistan </h1>
+            </div>
+        </div>
+    </div>
+    <!----------------about-------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Dastagir is a versatile web designer due to his extensive history in graphic and web design. His
+                        dedication to continuously learning about new web design trends and concepts has made him a
+                        valuable member of the team. With eight years of experience and a master's in web design, his
+                        expertise can help customers modernize with websites and appeal to expanding customer
+                        populations</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Designing Web/App interfaces</li>
+                            <li><span>App Development</span><br>Designing Web/App interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-current</span><br>Web Developer Web/App interfaces</li>
+                            <li><span>2022 - 2023 </span><br>Fdo as a Front Desk officer at Pearl Continantal Hotel at
+                                Karachi (Hashoo Group)</li>
+                            <li><span>2021 - 2022 </span><br> Room Reservations At Avari Towers Karachi.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Board of Intermediate Karachi 2nd year.</li>
+                            <li><span>2022</span><br>Board of intermediate karachi 1st year. </li>
+                            <li><span>2021</span><br>Matriculation From Board of Sindh.</li>
+                            </li><span>2009--2021</span><br>The Educators School Krachi.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------services----------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Dastagir is a versatile web designer due to his extensive history in graphic and web design. His
+                        dedication to continuously learning about new web design trends and concepts has made him a
+                        valuable member of the team. With eight years of experience and a master's in web design, his
+                        expertise can help customers modernize with websites and appeal to expanding customer
+                        populations</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>The UI/UX Design Specialization brings a design-centric approach to user interface and user
+                        experience design, and offers practical, skill-based instruction centered around a visual
+                        communications perspective, rather than on one focused on marketing or programming alone. You’ll
+                        learn current best practices and conventions in UX design and apply them to create effective and
+                        compelling screen-based experiences for websites or apps.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>App design combines the user interface (UI) and user experience (UX). While UI lends itself to
+                        the overall style of the app (including the colors, fonts, and general look and feel), UX
+                        focuses on the actual functionality and usability.
+
+                        A large number of users abandon an app after using it for the first time. Since users are picky
+                        about which apps they use and so quick to abandon those they don’t enjoy, it’s essential to
+                        invest time and effort in creating a great user experience. The better the design, the better
+                        the chance that a user will engage with it and thus keep using it.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------Portfolio------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/lap.jpg" style="width: 350px; height: 400px;">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>TikTok has established itself as one of the top online platforms for U.S. teens, while the
+                            share of teens who use Facebook has fallen sharply
+                            BY EMILY A. VOGELS, RISA GELLES-WATNICK AND NAVID MASSARAT.</p>
+                      </div>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                  </div>
+                <div class="work">
+                    <img src="images/pexels-andrew-neel-3201768.jpg" style="width: 350px; height: 400px;">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Apple Music is a streaming service that allows you to listen to over 100 million songs. Its
+                            features include the ability to download your favorite tracks and play them offline, lyrics
+                            in real time, listening.</p> 
+                    </div>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="work">
+                    <img src="images/lap4.jpg" style="width: 350px; height: 400px;">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Daraz is the leading online marketplace in South Asia, empowering tens of thousands of
+                            sellers to connect with millions of customers. Daraz is a Mall, a Marketplace, and a
+                            Community in your pocket.</p>
+                    </div>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+</div>
+     <!------------Contact----------->
+    <div id="contact">
+        <div id="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me </h1>
+                    <p><i class="fas fa-paper-plane"></i>ghulamdastagirsyed@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+923162887266</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/SyedGhulamdastagir786?mibextid=ZbWKwL"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://instagram.com/mr_kdastagir007?igshid=ZDdkNTZiNTM="><i
+                                class="fab fa-instagram"></i></a>
+                                <a href="https://instagram.com/mr_kdastagir007?igshid=ZDdkNTZiNTM="><i
+                                    class="fa-brands fa-whatsapp"></i></a>
+                         </div>
+                 <a href="" class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit with thanks </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> copyright<i class=""></i> B2B Solution.</p>
+        </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+        
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+</body>
